@@ -178,7 +178,7 @@ public class DynamicMarket extends JavaPlugin {
     /**
      * use this in the case that we need to update from the old way of storing data in config.yml
      */
-    @SuppressWarnings("deprecation")
+
     private void switchToDatabase() {
 
         logger.info("[" + pdfFile.getName() + "] Converting flatfile to database...");
